@@ -395,7 +395,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-size: modular-scale(1);
+  font-size: 1.25em;
   line-height: 1.2;
   margin: 0 0 0.75em; }
 
@@ -407,6 +407,6 @@ a {
   text-decoration: none;
   transition: color 150ms ease; }
   a:active, a:focus, a:hover {
-    color: shade(#1565c0, 25%); }
+    color: #104c90; }
 
 /*# sourceMappingURL=main.css.map */
