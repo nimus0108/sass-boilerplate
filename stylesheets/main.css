@@ -1,3 +1,9 @@
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
 /*! normalize.css v4.0.0 | MIT License | github.com/necolas/normalize.css */
 /**
  * 1. Change the default font family in all browsers (opinionated).
@@ -385,6 +391,7 @@ img {
   max-width: 100%; }
 
 body {
+  font-family: Avenir, sans-serif;
   color: #000;
   font-size: 1em;
   line-height: 1.5; }
